@@ -1,8 +1,15 @@
 const videos=[
 
-{title:"Music",id:"dQw4w9WgXcQ"},
-
-{title:"Gaming",id:"L_jWHffIx5E"}
+{title:"Epic Music",id:"dQw4w9WgXcQ"},
+{title:"Gaming Highlights",id:"L_jWHffIx5E"},
+{title:"Best EDM Mix",id:"fLexgOxsZu0"},
+{title:"Coding Tutorial",id:"3fumBcKC6RE"},
+{title:"LoFi Chill",id:"5qap5aO4i9A"},
+{title:"Relaxing Piano",id:"2OEL4P1Rz04"},
+{title:"Space Documentary",id:"GOAEIMx39-w"},
+{title:"Nature Film",id:"aqz-KE-bpKQ"},
+{title:"Drone Footage",id:"hHW1oY26kxQ"},
+{title:"Motivation",id:"ZXsQAXx_ao0"}
 
 ];
 
