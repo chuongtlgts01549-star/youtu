@@ -1,57 +1,75 @@
 body{
-
 background:#0f0f0f;
-
 color:white;
-
 font-family:Arial;
-
 margin:0;
-
 }
+
+/* HEADER */
 
 header{
-
 display:flex;
-
+align-items:center;
 justify-content:space-between;
-
+padding:12px 25px;
 background:#181818;
-
-padding:15px;
-
+border-bottom:1px solid #333;
 }
+
+.logo{
+font-size:22px;
+color:gold;
+font-weight:bold;
+}
+
+.search input{
+width:400px;
+padding:8px;
+border-radius:20px;
+border:none;
+background:#222;
+color:white;
+}
+
+.uploadBtn{
+background:gold;
+color:black;
+padding:8px 15px;
+border-radius:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* VIDEO GRID */
 
 #videos{
-
 display:grid;
-
-grid-template-columns:repeat(auto-fill,300px);
-
-gap:20px;
-
-padding:20px;
-
+grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+gap:25px;
+padding:25px;
 }
 
+/* VIDEO CARD */
+
 .video{
-
-background:#222;
-
-border-radius:10px;
-
+background:#1c1c1c;
+border-radius:12px;
 overflow:hidden;
+transition:0.3s;
+border:2px solid transparent;
+}
 
+.video:hover{
+transform:scale(1.05);
+border:2px solid gold;
+box-shadow:0 0 20px gold;
 }
 
 .video img{
-
 width:100%;
-
 }
 
 .video p{
-
 padding:10px;
-
+font-size:15px;
 }
