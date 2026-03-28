@@ -86,3 +86,49 @@ suggestions.innerHTML+=`
 loadVideos();
 
 loadWatch();
+// ===== Upload Video =====
+
+function uploadVideo(){
+
+let title=document.getElementById("title").value;
+
+let file=document.getElementById("file").files[0];
+
+let url=URL.createObjectURL(file);
+
+videos.push({
+
+title:title,
+url:url,
+likes:0,
+views:0
+
+});
+
+alert("Video uploaded!");
+
+}
+
+
+// ===== Like Video =====
+
+function likeVideo(){
+
+let like=document.getElementById("likes");
+
+like.innerText=parseInt(like.innerText)+1;
+
+}
+
+
+// ===== AI tăng view =====
+
+setInterval(()=>{
+
+videos.forEach(v=>{
+
+v.views += Math.floor(Math.random()*5);
+
+});
+
+},3600000);
