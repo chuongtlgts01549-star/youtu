@@ -1,11 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>GoldTube</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
 <header>
 
-<div class="logo">GoldTube</div>
-
-<div class="search">
-<input placeholder="Tìm video...">
+<div class="logo">
+<i class="fa-brands fa-youtube"></i> GoldTube
 </div>
 
-<a class="uploadBtn" href="upload.html">Upload</a>
+<div class="search">
+<input placeholder="Search">
+<i class="fa fa-search"></i>
+</div>
 
 </header>
+
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+
+<div><i class="fa fa-home"></i> Home</div>
+<div><i class="fa fa-fire"></i> Trending</div>
+<div><i class="fa fa-music"></i> Music</div>
+<div><i class="fa fa-gamepad"></i> Gaming</div>
+<div><i class="fa fa-film"></i> Movies</div>
+
+</div>
+
+
+<!-- VIDEOS -->
+
+<div id="videos"></div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
